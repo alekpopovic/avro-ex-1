@@ -1,0 +1,9 @@
+{
+  "type" : "record",
+  "name" : "PostUnliked",
+  "namespace" : "post",
+  "fields" : [ {
+    "name" : "userId",
+    "type" : "long"
+  } ]
+}

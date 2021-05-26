@@ -1,0 +1,12 @@
+{
+    "name": "programer/avro",
+    "authors": [
+        {
+            "name": "Aleksandar Popovic",
+            "email": "aleksandar.popovic@nearshoregm.com"
+        }
+    ],
+    "require": {
+        "wikimedia/avro": "^1.9"
+    }
+}

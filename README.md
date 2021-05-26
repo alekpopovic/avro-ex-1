@@ -1,0 +1,1 @@
+- java -jar ./src/tools/avro-tools.jar idl2schemata ./src/avro/*.avdl ./src/output

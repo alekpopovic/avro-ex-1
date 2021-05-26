@@ -1,0 +1,91 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f1e89a3fd03a9a650435add5887c8441",
+    "packages": [
+        {
+            "name": "wikimedia/avro",
+            "version": "v1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/avro-php.git",
+                "reference": "b2e0c9d750da03d95ba979215397f62a6121ddea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/avro-php/zipball/b2e0c9d750da03d95ba979215397f62a6121ddea",
+                "reference": "b2e0c9d750da03d95ba979215397f62a6121ddea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "jakub-onderka/php-console-highlighter": "0.3.2",
+                "jakub-onderka/php-parallel-lint": "1.0.0",
+                "mediawiki/minus-x": "0.3.1",
+                "phpunit/phpunit": "4.8.36"
+            },
+            "suggest": {
+                "ext-gmp": "Large integer support for 32-bit platforms."
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Glaesemann",
+                    "email": "grzm@seespotcode.net"
+                },
+                {
+                    "name": "Andy Wick",
+                    "email": "awick@purple.org"
+                },
+                {
+                    "name": "Saleem Shafi",
+                    "email": "saleemshafi@gmail.com"
+                },
+                {
+                    "name": "A B",
+                    "email": "abawany@x.com"
+                },
+                {
+                    "name": "Doug Cutting",
+                    "email": "cutting@apache.org"
+                },
+                {
+                    "name": "Tom White",
+                    "email": "tom@cloudera.com"
+                }
+            ],
+            "description": "A library for using Apache Avro with PHP.",
+            "homepage": "https://avro.apache.org/",
+            "keywords": [
+                "serialization"
+            ],
+            "support": {
+                "source": "https://github.com/wikimedia/avro-php/tree/master"
+            },
+            "time": "2019-09-16T15:18:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

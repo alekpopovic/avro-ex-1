@@ -1,0 +1,20 @@
+@namespace("post")
+protocol Post {
+  record PostCreated {
+    string title;
+    string body;
+    long authorUserId;
+    }
+
+    record PostPublished {}
+
+    record PostLiked {
+    long userId;
+    }
+
+    record PostUnliked {
+    long userId;
+    }
+
+    record PostDeleted {}
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "record",
+  "name" : "PostLiked",
+  "namespace" : "post",
+  "fields" : [ {
+    "name" : "userId",
+    "type" : "long"
+  } ]
+}

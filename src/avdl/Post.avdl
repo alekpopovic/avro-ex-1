@@ -4,17 +4,17 @@ protocol Post {
     string title;
     string body;
     long authorUserId;
-    }
+  }
 
-    record PostPublished {}
+  record PostPublished {}
 
-    record PostLiked {
+  record PostLiked {
     long userId;
-    }
+  }
 
-    record PostUnliked {
+  record PostUnliked {
     long userId;
-    }
+  }
 
-    record PostDeleted {}
+  record PostDeleted {}
 }

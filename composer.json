@@ -1,12 +1,17 @@
 {
-    "name": "programer/avro",
+    "name": "flyeralarm/avro-php-gen",
+    "description": "Generate PHP code from Avro files",
+    "type": "library",
     "authors": [
         {
             "name": "Aleksandar Popovic",
-            "email": "aleksandar.popovic@nearshoregm.com"
+            "email": "aleksandar.popovic@flyeralarm.com"
         }
     ],
-    "require": {
-        "wikimedia/avro": "^1.9"
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Apache\\Avro\\": "lib/avro"
+        }
     }
 }

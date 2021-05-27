@@ -1,0 +1,6 @@
+{
+  "type" : "record",
+  "name" : "PostPublished",
+  "namespace" : "post",
+  "fields" : [ ]
+}
